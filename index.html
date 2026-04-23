@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>CRP · Privacy Policy</title>
-  <!-- Google Fonts: Inter & Space Grotesk -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     * {
@@ -12,17 +11,12 @@
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       background-color: #ffffff;
       font-family: 'Inter', sans-serif;
       color: #1a1a1a;
       line-height: 1.5;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
     }
-
-    /* subtle grid overlay (same as landing page) */
     .grid-bg {
       position: fixed;
       top: 0;
@@ -36,7 +30,6 @@
         linear-gradient(to bottom, rgba(0,0,0,0.02) 1px, transparent 1px);
       background-size: 48px 48px;
     }
-
     .container {
       max-width: 860px;
       margin: 0 auto;
@@ -44,11 +37,7 @@
       position: relative;
       z-index: 2;
     }
-
-    /* header with small logo marker */
-    .logo-marker {
-      margin-bottom: 2.5rem;
-    }
+    .logo-marker { margin-bottom: 2.5rem; }
     .logo-simple {
       display: inline-block;
       font-family: 'Space Grotesk', monospace;
@@ -61,7 +50,6 @@
       padding: 0.35rem 1rem;
       border-radius: 40px;
     }
-
     h1 {
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 500;
@@ -69,9 +57,7 @@
       letter-spacing: -0.02em;
       color: #000000;
       margin-bottom: 0.5rem;
-      line-height: 1.2;
     }
-
     .last-updated {
       font-size: 0.85rem;
       color: #6b6b6b;
@@ -79,27 +65,20 @@
       border-left: 2px solid #e0e0e0;
       padding-left: 1rem;
     }
-
-    /* policy sections */
-    .policy-section {
-      margin-bottom: 2.5rem;
-    }
+    .policy-section { margin-bottom: 2.5rem; }
     h2 {
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 500;
       font-size: 1.4rem;
-      letter-spacing: -0.2px;
-      color: #000;
       margin-bottom: 1rem;
-      padding-bottom: 0.25rem;
       border-bottom: 1px solid #efefef;
+      padding-bottom: 0.25rem;
     }
     h3 {
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 500;
       font-size: 1.1rem;
       margin: 1.25rem 0 0.5rem 0;
-      color: #1e1e1e;
     }
     p {
       font-size: 0.95rem;
@@ -107,19 +86,11 @@
       margin-bottom: 0.75rem;
       line-height: 1.55;
     }
-    .sub-list {
-      margin-left: 1.5rem;
-      margin-bottom: 0.75rem;
-    }
-    .sub-list li {
-      font-size: 0.95rem;
-      color: #3a3a3a;
-      margin-bottom: 0.3rem;
-    }
-    ul, .simple-list {
+    ul {
       list-style: none;
       margin-left: 0;
       padding-left: 1.2rem;
+      margin-bottom: 0.75rem;
     }
     ul li {
       font-size: 0.95rem;
@@ -141,13 +112,7 @@
       margin-top: 1rem;
       font-family: monospace;
       font-size: 0.9rem;
-      color: #000;
       display: inline-block;
-    }
-    hr {
-      margin: 2rem 0 1rem;
-      border: none;
-      border-top: 1px solid #efefef;
     }
     .footer-note {
       text-align: center;
@@ -160,123 +125,108 @@
     a {
       color: #000;
       text-decoration: underline;
-      text-underline-offset: 2px;
-    }
-    a:hover {
-      color: #3a3a3a;
     }
     @media (max-width: 680px) {
-      .container {
-        padding: 2rem 1.5rem;
-      }
-      h1 {
-        font-size: 2.2rem;
-      }
-      h2 {
-        font-size: 1.25rem;
-      }
+      .container { padding: 2rem 1.5rem; }
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.25rem; }
     }
   </style>
 </head>
 <body>
 <div class="grid-bg"></div>
 <div class="container">
-  <div class="logo-marker">
-    <span class="logo-simple">CRP</span>
-  </div>
+  <div class="logo-marker"><span class="logo-simple">CRP</span></div>
   <h1>Privacy Policy</h1>
-  <div class="last-updated">CRP Focus and CRP services (including website, editor, and early access platform) — Last updated: April 2026</div>
+  <div class="last-updated">CRP Focus & related services – Last updated: April 2026</div>
 
   <div class="policy-section">
     <h2>1. Overview</h2>
-    <p>This Privacy Policy explains how CRP collects, uses, and protects user information across its services, including the CRP Focus mobile application, early access signup website, landing page, and CRP editor platform.</p>
-    <p>By using any CRP service, you agree to the terms described in this Privacy Policy.</p>
+    <p>This Privacy Policy explains how CRP collects, uses, and protects information across CRP Focus (mobile app), early access website, and CRP Editor platform.</p>
+    <p>By using any CRP service, you agree to this policy.</p>
   </div>
 
   <div class="policy-section">
     <h2>2. Information We Collect</h2>
-    <h3>CRP Focus Mobile Application</h3>
-    <p>We may collect the following information:</p>
+    
+    <h3>CRP Focus Mobile App</h3>
+    <p>We collect the following information and store it on our servers (Firebase):</p>
     <ul>
-      <li>Email address (for account creation and early access signup)</li>
-      <li>Device information and app usage data</li>
-      <li>Notifications data (to deliver important alerts)</li>
-      <li>Crash reports and performance data (to improve app stability)</li>
-      <li>Data processed through Firebase services</li>
+      <li><strong>Email address</strong> – for account creation and login.</li>
+      <li><strong>Name</strong> – a display name derived from your email (stored with your account).</li>
+      <li><strong>User IDs</strong> – Firebase User ID and device identifiers used for pairing.</li>
+      <li><strong>Device information</strong> – device type, online status, and pairing data.</li>
+      <li><strong>Crash reports and usage data</strong> – to improve stability and performance.</li>
     </ul>
+    <p><strong>Notification content (titles, text, package names) is never uploaded to our servers.</strong> It stays on your device and is processed locally by the on‑device AI model to calculate importance scores. We do not have access to your personal messages.</p>
 
-    <h3>Early Access Website</h3>
-    <p>We collect:</p>
-    <ul>
-      <li>Email address (for early access registration)</li>
-    </ul>
-    <p>We do not collect additional personal data beyond the signup form.</p>
+    <h3>On‑device AI Model</h3>
+    <p>CRP Focus downloads a language model (approx. 2.5 GB) from a public repository (Hugging Face) to your device. This download is a one‑time file transfer; no personal data is sent to Hugging Face or any third party during or after the download.</p>
 
-    <h3>Landing Page (CRP Focus Website)</h3>
-    <p>We do not collect personal data.</p>
+    <h3>Early Access Website & CRP Editor</h3>
+    <p>We collect only your email address when you sign up for early access or create an editor account. No additional personal data is collected.</p>
 
-    <h3>CRP Editor Platform</h3>
-    <p>We collect:</p>
-    <ul>
-      <li>Email address (for account creation and login)</li>
-      <li>Basic usage data for functionality purposes</li>
-      <li>Data processed through Firebase services</li>
-    </ul>
+    <h3>Landing Page</h3>
+    <p>No personal data is collected.</p>
   </div>
 
   <div class="policy-section">
-    <h2>3. Use of Third-Party Services</h2>
-    <p>We use third-party services such as Firebase to:</p>
+    <h2>3. How We Use Data</h2>
+    <p>We use the collected data exclusively for:</p>
     <ul>
-      <li>Store user data securely</li>
-      <li>Provide authentication and login functionality</li>
-      <li>Analyze app performance and crashes</li>
-      <li>Improve user experience</li>
-    </ul>
-    <p>These services may process limited user data on our behalf.</p>
-  </div>
-
-  <div class="policy-section">
-    <h2>4. Data Sharing</h2>
-    <p>We do not sell personal data.</p>
-    <p>We may share limited data with trusted third-party providers (such as Firebase) strictly for:</p>
-    <ul>
-      <li>App functionality</li>
-      <li>Analytics</li>
-      <li>Performance monitoring</li>
+      <li>Account creation and authentication (via Firebase).</li>
+      <li>Device pairing and synchronisation across your devices.</li>
+      <li>Improving app stability and performance (crash reports, analytics).</li>
+      <li>Enabling the on‑device AI classification (no data leaves your device for this).</li>
     </ul>
   </div>
 
   <div class="policy-section">
-    <h2>5. Data Retention</h2>
-    <p>We retain user data only as long as necessary to:</p>
+    <h2>4. Third‑Party Services</h2>
+    <p>We use <strong>Firebase</strong> (Google) as our service provider for:</p>
     <ul>
-      <li>Provide services</li>
-      <li>Maintain user accounts</li>
-      <li>Improve functionality</li>
+      <li>Authentication</li>
+      <li>Cloud database (Firestore, Realtime Database)</li>
+      <li>Crash reporting and analytics</li>
     </ul>
-    <p>Users may request deletion of their data.</p>
+    <p>Firebase processes data <strong>only</strong> on our behalf, as a data processor. We do not sell, rent, or share your personal data with any independent third party.</p>
+    <p>The AI model file is downloaded from Hugging Face’s servers, but <strong>no personal data is transmitted</strong> during that download. The download is a standard file transfer.</p>
   </div>
 
   <div class="policy-section">
-    <h2>6. Security</h2>
-    <p>We take reasonable measures to protect user data, but no system is 100% secure.</p>
+    <h2>5. Data Sharing</h2>
+    <p><strong>We do not share your personal data with any third party for marketing, advertising, or any other independent purpose.</strong> Firebase acts only as a service provider under our control.</p>
   </div>
 
   <div class="policy-section">
-    <h2>7. Children’s Privacy</h2>
-    <p>Our services are not intended for children under 13. We do not knowingly collect data from children.</p>
+    <h2>6. Data Retention & Deletion</h2>
+    <p>We retain your account data (email, name, user IDs, device pairings) for as long as your account is active. You may request deletion of your account and all associated data at any time.</p>
+    <p><strong>How to delete your data:</strong> Visit <a href="https://crp-company.github.io/CRP-Account-Deletion/" target="_blank">https://crp-company.github.io/CRP-Account-Deletion/</a> and submit a deletion request. We will process it within 30 days.</p>
+    <p>Notification data stored locally on your device can be cleared by uninstalling the app or clearing app data from system settings.</p>
   </div>
 
   <div class="policy-section">
-    <h2>8. Contact</h2>
-    <p>If you have any questions about this Privacy Policy, contact us at:</p>
+    <h2>7. Security</h2>
+    <p>All data transmitted between your device and Firebase is encrypted in transit (TLS). Access to our backend is restricted to authorised personnel only. However, no system is 100% secure, and you use our services at your own risk.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>8. Children’s Privacy</h2>
+    <p>CRP services are not intended for children under 13. We do not knowingly collect personal data from children.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify users of material changes via the app or website. Continued use after changes constitutes acceptance.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>10. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or your data, please contact us at:</p>
     <div class="contact-email">atronamir5@gmail.com</div>
   </div>
 
-  <div class="footer-note">
-    ©2026 CRP. All rights reserved.
-  </div>
+  <div class="footer-note">© 2026 CRP. All rights reserved.</div>
 </div>
 </body>
 </html>
